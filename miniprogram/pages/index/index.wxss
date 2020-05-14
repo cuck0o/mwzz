@@ -1,0 +1,108 @@
+page {
+  background: #fff;
+}
+
+.logo {
+  padding: 20px;
+  text-align: center;
+}
+
+.nav {
+  border-bottom: 1px solid #eee;
+}
+
+.offset-bottom {
+  margin-bottom: -4px;
+}
+
+.first {
+  border-left: none;
+}
+
+.nav-txt {
+  display: block;
+  font-size: 12px;
+  color: #646566;
+}
+
+.footer {
+  background: #333;
+  text-align: center;
+  font-weight: lighter;
+  padding: 20px;
+  height: auto;
+  font-size: 30rpx;
+  color: #fff;
+  vertical-align: bottom;
+}
+
+.des-txt {
+  display: block;
+  margin-bottom: 15px;
+  line-height: 20px;
+  font-size: 28rpx;
+}
+
+.left-box {
+  height: auto;
+  padding-bottom: 30px;
+  position: relative;
+  font-size: 30rpx;
+  color: #fff;
+  vertical-align: bottom;
+}
+
+.left-box-title {
+  border-left: 2px solid #fff;
+  height: 80px;
+}
+
+.left-box-title-txt {
+  margin: 52px 0 0 10px;
+}
+
+.left-box-des {
+  font-weight: lighter;
+  padding: 10px 0 0 10px;
+  text-align: left;
+}
+
+.part2-img {
+  position: absolute;
+  top: -20px;
+}
+
+.part3-img {
+  position: absolute;
+  top: -35px;
+  left: 20px;
+}
+
+.right-box {
+  height: auto;
+  padding-bottom: 20px;
+  position: relative;
+  font-size: 30rpx;
+  color: #fff;
+  vertical-align: bottom;
+}
+
+.right-box-title {
+  border-right: 2px solid #fff;
+  height: 80px;
+}
+
+.right-box-title-txt {
+  text-align: right;
+  margin: 52px 10px 0 0;
+}
+
+.right-box-des {
+  font-weight: lighter;
+  text-align: right;
+  padding: 20px 0 0 0;
+}
+
+.onPoup {
+  border: none;
+}

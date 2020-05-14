@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "van-grid": "../vant-weapp-dev/dist/grid/index",
+    "van-grid-item": "../vant-weapp-dev/dist/grid-item/index",
+    "van-row": "../vant-weapp-dev/dist/row/index",
+    "van-col": "../vant-weapp-dev/dist/col/index",
+    "van-image": "../vant-weapp-dev/dist/image/index",
+    "van-steps": "../vant-weapp-dev/dist/steps/index",
+    "van-icon": "../vant-weapp-dev/dist/icon/index",
+    "van-popup": "../vant-weapp-dev/dist/popup/index",
+    "van-divider": "../vant-weapp-dev/dist/divider/index"
+  }
+}
