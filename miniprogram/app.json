@@ -1,6 +1,9 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/tv/index",
+    "pages/stack/index",
+    "pages/stack2/index"
   ],
   "window": {
     "backgroundColor": "#fff",

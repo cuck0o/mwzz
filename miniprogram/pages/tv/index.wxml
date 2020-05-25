@@ -1,0 +1,9 @@
+<van-row custom-class="tv-link">
+	<van-col span="24">
+		http://tv.yege123.com/158
+	</van-col>
+</van-row>
+
+<van-cell-group wx:for="{{tvRecord}}" wx:key="unique">
+	<van-cell title="{{item.title}}" value="{{item.date}}" label="{{item.info}}" border="{{ false }}" />
+</van-cell-group>

@@ -5,19 +5,20 @@
 <van-row custom-class="nav">
 	<van-col span="24">
 		<van-grid>
-			<van-grid-item icon="tv-o" text="直播间" link-type="navigateTo" url="/pages/index/index" />
+			<van-grid-item icon="tv-o" text="直播记录" link-type="navigateTo" url="/pages/tv/index" />
 
-			<van-grid-item icon="chart-trending-o" text="个股跟踪" />
+			<van-grid-item icon="chart-trending-o" text="个股跟踪" link-type="navigateTo" url="/pages/stack/index" />
 
-			<van-grid-item icon="coupon-o" text="融资融券" />
-			
+			<van-grid-item icon="coupon-o" text="融资融券" link-type="navigateTo" url="/pages/stack2/index" />
+
 			<van-grid-item icon="aim" text="盘面播报" />
 
-      <van-grid-item icon="good-job-o" text="小哥推荐" />
-
 			<van-grid-item icon="info-o" text="信息统计" />
-			<van-grid-item icon="photo-o" text="文字" />
-			<van-grid-item icon="photo-o" text="文字" />
+
+			<van-grid-item icon="good-job-o" text="小哥推荐" />
+
+			<van-grid-item icon="clock-o" text="敬请期待" />
+			<van-grid-item icon="clock-o" text="敬请期待" />
 		</van-grid>
 	</van-col>
 </van-row>

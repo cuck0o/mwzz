@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-grid": "../vant-weapp-dev/dist/grid/index",
+    "van-grid-item": "../vant-weapp-dev/dist/grid-item/index",
+    "van-row": "../vant-weapp-dev/dist/row/index",
+    "van-col": "../vant-weapp-dev/dist/col/index",
+    "van-cell": "../vant-weapp-dev/dist/cell/index",
+    "van-cell-group": "../vant-weapp-dev/dist/cell-group/index"
+  }
+}
