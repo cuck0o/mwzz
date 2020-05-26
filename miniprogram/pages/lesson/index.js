@@ -1,4 +1,3 @@
-// pages/stack/index.js
 Page({
 
   /**
@@ -6,7 +5,7 @@ Page({
    */
   data: {
     activeName: '0',
-    stackRecord: []
+    lessonRecord: []
   },
 
   onChange(event) {
@@ -21,11 +20,11 @@ Page({
   onLoad: function (options) {
     var that = this;
     wx.cloud.callFunction({
-      name: "stack2",
+      name: "lesson",
       complete: res => {
         console.log(res);
         that.setData({
-          stackRecord: res.result
+          lessonRecord: res.result
         })
       }
     })

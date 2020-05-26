@@ -1,0 +1,10 @@
+<van-panel title="步骤一：" desc="筛选单日涨幅超过5个点的股票（*ST不看）"></van-panel>
+<van-panel title="步骤二：" desc="股价在20日均线上方"></van-panel>
+<van-panel title="步骤三：" desc="20日均线向上" status="非必要条件"></van-panel>
+<van-panel title="步骤四：" desc="是否有效放量（当日成交量超过三条成交量均线）"></van-panel>
+<van-panel title="注意事项：" desc="（1）此方法比较适合收盘后去筛选，如果大盘稳定，不容易跳水可盘中筛选入场（2）涨幅异动前的走势趋于平稳的横盘，越有优势，横盘越窄，预期收益越大（3）不宜重仓，建议2成（4）严格止损点：20日均线的价格"></van-panel>
+
+
+<view class="pic top">
+	<van-image width="200px" height="200px" fit="cover" src="https://6d77-mwzz-zhd4u-1302128239.tcb.qcloud.la/fun1_eg.jpg?sign=c9af9ecafa432f308ef96f31fa18e064&t=1590479652" bind:click="showPic" />
+</view>

@@ -1,26 +1,24 @@
-// pages/tv/index.js
+// pages/fun2/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    tvRecord: []
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var that = this;
-    wx.cloud.callFunction({
-      name: "tv",
-      complete: res => {
-        console.log(res);
-        that.setData({
-          tvRecord: res.result
-        })
-      }
+
+  },
+
+  showPic: function () {
+    wx.previewImage({
+      current: 'https://6d77-mwzz-zhd4u-1302128239.tcb.qcloud.la/fun2_eg.jpg?sign=f0eaab2c11c5a4c087a0ae98d8ef4dfe&t=1590482616', // 当前显示图片的http链接
+      urls: ['https://6d77-mwzz-zhd4u-1302128239.tcb.qcloud.la/fun2_eg.jpg?sign=f0eaab2c11c5a4c087a0ae98d8ef4dfe&t=1590482616'] // 需要预览的图片http链接列表
     })
   },
 

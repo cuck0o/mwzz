@@ -2,15 +2,7 @@ const app = getApp()
 
 Page({
   data: {
-    titles: '<p style="display:inline-block;color:orange">H</p>' +
-      '<p style="display:inline-block;color:red">E</p>' +
-      '<p style="display:inline-block;color:green">L</p>' +
-      '<p style="display:inline-block;color:orange">L</p>' +
-      '<p style="display:inline-block;color:black">O</p>' +
-      '<p style="display:inline-block;color:blue">， </p>' +
-      '<p style="display:inline-block;color:black">欢迎使用咸鱼定制</p>',
-    isAuth: false,
-    popShow: false
+    isAuth: false
   },
 
   onLoad: function () {

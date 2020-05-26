@@ -5,9 +5,10 @@
     "van-row": "../vant-weapp-dev/dist/row/index",
     "van-col": "../vant-weapp-dev/dist/col/index",
     "van-image": "../vant-weapp-dev/dist/image/index",
-    "van-steps": "../vant-weapp-dev/dist/steps/index",
     "van-icon": "../vant-weapp-dev/dist/icon/index",
-    "van-popup": "../vant-weapp-dev/dist/popup/index",
-    "van-divider": "../vant-weapp-dev/dist/divider/index"
+    "van-divider": "../vant-weapp-dev/dist/divider/index",
+    "van-cell": "../vant-weapp-dev/dist/cell/index",
+    "van-cell-group": "../vant-weapp-dev/dist/cell-group/index",
+    "van-tag": "../vant-weapp-dev/dist/tag/index"
   }
 }

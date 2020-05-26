@@ -1,0 +1,6 @@
+<van-collapse accordion value="{{ activeName }}" wx:for="{{infoRecord}}" wx:key="unique" bind:change="onChange" border="{{false}}">
+
+	<van-collapse-item title="{{item.title}}" name="{{item.index}}">
+		{{item.info}}
+	</van-collapse-item>
+</van-collapse>

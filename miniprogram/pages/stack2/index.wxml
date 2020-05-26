@@ -1,6 +1,0 @@
-<van-collapse accordion value="{{ activeName }}" wx:for="{{stackRecord}}" wx:key="unique" bind:change="onChange" border="{{false}}">
-
-	<van-collapse-item title="{{item.title}}" name="{{item.index}}">
-		<van-steps steps="{{ item.steps }}" direction="vertical" active="{{ active }}" />
-	</van-collapse-item>
-</van-collapse>

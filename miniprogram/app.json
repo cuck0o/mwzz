@@ -1,9 +1,12 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/tv/index",
+    "pages/info/index",
     "pages/stack/index",
-    "pages/stack2/index"
+    "pages/lesson/index",
+    "pages/contact/index",
+    "pages/fun1/index",
+    "pages/fun2/index"
   ],
   "window": {
     "backgroundColor": "#fff",
