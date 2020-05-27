@@ -2,19 +2,39 @@
 	<van-image width="100" height="100" src="/images/logo.png" />
 </van-row>
 
-
 <van-row custom-class="nav">
 	<van-col span="24">
 		<van-grid>
-			<van-grid-item icon="aim" text="盘面播报" link-type="navigateTo" url="/pages/info/index" />
-			<van-grid-item icon="chart-trending-o" text="个股跟踪" link-type="navigateTo" url="/pages/stack/index" />
+			<van-grid-item icon="aim" text="聚焦" link-type="navigateTo" url="/pages/info/index" />
+			<van-grid-item icon="chart-trending-o" text="股票池" link-type="navigateTo" url="/pages/stack/index" />
+			<van-grid-item icon="coupon-o" text="融资融券" link-type="navigateTo" url="/pages/contact/index" />
 			<van-grid-item icon="gem-o" text="简易知识点" link-type="navigateTo" url="/pages/lesson/index" />
-			<van-grid-item icon="chat-o" text="联系我" link-type="navigateTo" url="/pages/contact/index" />
 		</van-grid>
 	</van-col>
 </van-row>
 
 <van-cell-group>
+	<van-cell value="" is-link link-type="navigateTo" url="/pages/fun5/index">
+		<view slot="title">
+			<view class="van-cell-text">“横有多长竖有多高”趋势选股</view>
+			<van-tag color="#f2826a">中线</van-tag>
+		</view>
+	</van-cell>
+	
+	<van-cell value="" is-link link-type="navigateTo" url="/pages/fun4/index">
+		<view slot="title">
+			<view class="van-cell-text">价值洼地个股choose</view>
+			<van-tag color="#f2826a">逻辑选股</van-tag>
+		</view>
+	</van-cell>
+
+	<van-cell value="" is-link link-type="navigateTo" url="/pages/fun3/index">
+		<view slot="title">
+			<view class="van-cell-text">用成交金额 + 筹码看大盘</view>
+			<van-tag color="#f2826a">大盘</van-tag>
+		</view>
+	</van-cell>
+
 	<van-cell value="" is-link link-type="navigateTo" url="/pages/fun1/index">
 		<view slot="title">
 			<view class="van-cell-text">超短线暴力选股法</view>
@@ -25,10 +45,8 @@
 	<van-cell value="" is-link is-link link-type="navigateTo" url="/pages/fun2/index">
 		<view slot="title">
 			<view class="van-cell-text">柳暗花明理论体系选股</view>
-			<van-tag color="#f2826a">根据上方短线操作的后续</van-tag>
+			<van-tag color="#f2826a">补操作</van-tag>
 		</view>
 	</van-cell>
 
 </van-cell-group>
-
-<view class="desc">*收集各类选股操作技巧，仅供参考，不对使用后果负责</view>

@@ -1,6 +1,6 @@
 <van-panel title="步骤一：" desc="连续2次以上涨停板"></van-panel>
-<van-panel title="步骤二：" desc="等待出现卖点S点（洗盘，散户卖出）"></van-panel>
-<van-panel title="步骤三：" desc="放量下跌（当日成交量大于前日成交量）,可考虑入场"></van-panel>
+<van-panel title="步骤二：" desc="等待出现卖点S点（洗盘，吓死那群傻逼，散户卖出）"></van-panel>
+<van-panel title="步骤三：" desc="放量下跌（当日成交量大于前日成交量）,可考虑入场，梭哈"></van-panel>
 
 <view class="pic top">
 	<van-image width="200px" height="200px" fit="cover" src="https://6d77-mwzz-zhd4u-1302128239.tcb.qcloud.la/fun2_eg.jpg?sign=f0eaab2c11c5a4c087a0ae98d8ef4dfe&t=1590482616" bind:click="showPic" />

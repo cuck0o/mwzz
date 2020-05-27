@@ -1,0 +1,4 @@
+<van-panel title="①" desc="绝对价格：历史最高价值 / 当前价格"></van-panel>
+<van-panel title="②" desc="绝对价格存在翻倍空间"></van-panel>
+<van-panel title="③" desc="股价重新突破20周均线"></van-panel>
+<van-panel title="④" desc="查看筹码是否在底部相对集中，获利盘已经沉淀，洗盘后散户及套牢盘清空有效"></van-panel>

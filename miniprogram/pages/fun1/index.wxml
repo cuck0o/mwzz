@@ -1,4 +1,4 @@
-<van-panel title="步骤一：" desc="筛选单日涨幅超过5个点的股票（*ST不看）"></van-panel>
+<van-panel title="步骤一：" desc="筛选单日涨幅超过5个点的股票（*ST不看）（大脸盘子不看，只看中小板）"></van-panel>
 <van-panel title="步骤二：" desc="股价在20日均线上方"></van-panel>
 <van-panel title="步骤三：" desc="20日均线向上" status="非必要条件"></van-panel>
 <van-panel title="步骤四：" desc="是否有效放量（当日成交量超过三条成交量均线）"></van-panel>
